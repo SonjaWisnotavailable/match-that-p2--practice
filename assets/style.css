@@ -156,7 +156,7 @@ font-size: larger;
 
         footer {
             height: 150px;
-            background: url('../images/footer-banner-web.jpg');
+            background-image: url('../assets/images/footer-banner-web.jpg');
         }
         
  
@@ -270,4 +270,59 @@ font-size: larger;
     
     
     
-    
+.row {
+    text-align: center;
+}
+
+.card {
+
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    cursor: grab;
+
+}
+
+.card:hover {
+
+    border: 2px solid, #3a3a3a;
+    box-shadow: inset 0px 0px 0px 1px white;
+    box-sizing: border-box;
+}
+
+.red {
+    background-color: red;
+}
+
+.purple {
+    background-color: purple;
+}
+
+.green {
+    background-color: green;
+}
+
+.black {
+    background-color: black;
+}
+
+.yellow {
+    background-color: yellow ;
+}
+
+.pink {
+    background-color: pink;
+}
+
+.grey {
+    background-color: grey;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.color-hidden {
+    background-color: peachpuff;
+}
